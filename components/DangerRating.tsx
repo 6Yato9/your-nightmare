@@ -4,9 +4,9 @@ interface DangerRatingProps {
 }
 
 const sizes = {
-  sm: 'text-sm',
-  md: 'text-lg',
-  lg: 'text-2xl',
+  sm: 'text-xl',
+  md: 'text-2xl',
+  lg: 'text-4xl',
 }
 
 export default function DangerRating({ rating, size = 'md' }: DangerRatingProps) {
