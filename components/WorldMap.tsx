@@ -88,7 +88,7 @@ export default function WorldMap() {
         projection="geoEquirectangular"
         width={960}
         height={500}
-        projectionConfig={{ scale: 153, center: [0, 0] }}
+        projectionConfig={{ scale: 130, center: [0, 10] }}
         style={{ width: '100%', height: 'auto' }}
       >
         <Geographies geography={GEO_URL}>
