@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* Bottom attribution */}
       <div className="absolute bottom-4 left-0 right-0 z-20 text-center pointer-events-none">
-        <p className="text-xs text-[#5c3d1e] font-[var(--font-cinzel)] tracking-widest">
+        <p className="text-xs text-[#8b6914] font-[var(--font-cinzel)] tracking-widest">
           HORROR · FOLKLORE · ANCIENT TALES
         </p>
       </div>

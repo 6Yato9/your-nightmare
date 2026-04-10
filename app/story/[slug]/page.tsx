@@ -41,69 +41,60 @@ export default async function StoryPage({ params }: Props) {
       <div className="px-6 pt-6">
         <Link
           href={`/region/${story.regionSlug}`}
-          className="inline-block text-xs uppercase tracking-widest text-[#8b6914] hover:text-[#c4840f] font-[var(--font-cinzel)] transition-colors"
+          className="inline-block text-xs uppercase tracking-widest text-[#c4840f] hover:text-[#e0b830] font-[var(--font-cinzel)] transition-colors"
         >
           ← Back to {story.region}
         </Link>
       </div>
 
-      {/* Hero image */}
-      <div className="relative w-full h-64 md:h-96 mt-6 overflow-hidden">
-        <Image
-          src={story.image}
-          alt={story.creature}
-          fill
-          className="object-cover grayscale sepia opacity-60"
-          priority
-          sizes="100vw"
-        />
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              'linear-gradient(to bottom, transparent 40%, #1a0f00 100%)',
-          }}
-        />
-        {/* Title over image */}
-        <div className="absolute bottom-0 left-0 right-0 px-6 pb-8 text-center">
-          <p className="text-xs uppercase tracking-[0.3em] text-[#8b6914] font-[var(--font-cinzel)]">
+      {/* Two-column layout */}
+      <div className="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 lg:grid-cols-[2fr_3fr] gap-12">
+
+        {/* Left column: title, image, danger rating */}
+        <div className="flex flex-col">
+          <p className="text-xs uppercase tracking-[0.3em] text-[#c4840f] font-[var(--font-cinzel)] mb-3">
             {story.category} · {story.region}
           </p>
-          <h1 className="mt-2 text-4xl md:text-6xl font-black text-[#f5e6c8] font-[var(--font-cinzel)] drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
+          <h1 className="text-4xl md:text-5xl font-black text-[#f5e6c8] font-[var(--font-cinzel)] leading-tight mb-6">
             {story.title}
           </h1>
-          <div className="mt-3 flex justify-center">
+          <div className="relative w-full aspect-[3/4] overflow-hidden border border-[#5c3d1e]">
+            <Image
+              src={story.image}
+              alt={story.creature}
+              fill
+              className="object-cover grayscale sepia opacity-70"
+              priority
+              sizes="(max-width: 1024px) 100vw, 40vw"
+            />
+          </div>
+          <div className="mt-5">
             <DangerRating rating={story.dangerRating} size="lg" />
           </div>
         </div>
-      </div>
 
-      {/* Manuscript content */}
-      <article className="max-w-2xl mx-auto px-6 py-12">
-        {/* Teaser/intro */}
-        <p className="text-center text-lg italic text-[#8b6914] font-[var(--font-im-fell)] leading-relaxed mb-8 border-y border-[#5c3d1e] py-6">
-          {story.teaser}
-        </p>
+        {/* Right column: teaser + story body */}
+        <div>
+          <p className="text-lg italic text-[#d4b97a] font-[var(--font-im-fell)] leading-relaxed mb-8 border-b border-[#5c3d1e] pb-6">
+            {story.teaser}
+          </p>
 
-        <div className="ink-divider">❧</div>
+          <div className="ink-divider mb-8">❧</div>
 
-        {/* Story body */}
-        <div className="mt-8 p-8 md:p-12" style={{ background: 'rgba(245,230,200,0.05)' }}>
           <StoryBody html={story.contentHtml} />
-        </div>
 
-        <div className="ink-divider mt-12">✦ ✦ ✦</div>
+          <div className="ink-divider mt-12">✦ ✦ ✦</div>
 
-        {/* Footer navigation */}
-        <div className="mt-8 text-center">
-          <Link
-            href={`/region/${story.regionSlug}`}
-            className="inline-block px-6 py-3 border border-[#8b6914] text-[#e8d5a3] text-sm uppercase tracking-widest font-[var(--font-cinzel)] hover:bg-[#3d2510] transition-colors"
-          >
-            More from {story.region}
-          </Link>
+          <div className="mt-8 text-center">
+            <Link
+              href={`/region/${story.regionSlug}`}
+              className="inline-block px-6 py-3 border border-[#8b6914] text-[#e8d5a3] text-sm uppercase tracking-widest font-[var(--font-cinzel)] hover:bg-[#3d2510] transition-colors"
+            >
+              More from {story.region}
+            </Link>
+          </div>
         </div>
-      </article>
+      </div>
     </main>
   )
 }

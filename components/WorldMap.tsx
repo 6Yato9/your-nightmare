@@ -9,32 +9,32 @@ const GEO_URL =
   'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json'
 
 const DEFAULT_STYLE = {
-  fill: '#8b6914',
-  stroke: '#3d2510',
+  fill: '#b89a3a',
+  stroke: '#7a5c28',
   strokeWidth: 0.5,
   outline: 'none',
   cursor: 'default',
 }
 
 const CLICKABLE_STYLE = {
-  fill: '#a07820',
-  stroke: '#3d2510',
+  fill: '#c4a840',
+  stroke: '#7a5c28',
   strokeWidth: 0.5,
   outline: 'none',
   cursor: 'pointer',
 }
 
 const HOVER_STYLE = {
-  fill: '#c4840f',
-  stroke: '#3d2510',
+  fill: '#e0b830',
+  stroke: '#7a5c28',
   strokeWidth: 0.8,
   outline: 'none',
   cursor: 'pointer',
 }
 
 const ACTIVE_STYLE = {
-  fill: '#8b2500',
-  stroke: '#3d2510',
+  fill: '#c43000',
+  stroke: '#7a5c28',
   strokeWidth: 0.8,
   outline: 'none',
   cursor: 'pointer',
@@ -74,7 +74,7 @@ export default function WorldMap() {
   }, [])
 
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-full flex items-center justify-center">
       {/* Vignette overlay */}
       <div
         className="pointer-events-none absolute inset-0 z-10"
@@ -85,8 +85,10 @@ export default function WorldMap() {
       />
 
       <ComposableMap
+        width={960}
+        height={500}
         projectionConfig={{ scale: 147, center: [0, 15] }}
-        style={{ width: '100%', height: '100%' }}
+        style={{ width: '100%', height: 'auto' }}
       >
         <Geographies geography={GEO_URL}>
           {({ geographies }: { geographies: Array<{ rsmKey: string; id: string }> }) =>
