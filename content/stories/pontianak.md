@@ -6,7 +6,7 @@ regionSlug: "southeast-asia"
 category: "Ghost/Spirit"
 dangerRating: 4
 teaser: "A spirit of a woman who died in childbirth, she appears near banana trees smelling of frangipani — beautiful until she turns around."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/BD_Weighing_of_the_Heart.jpg/640px-BD_Weighing_of_the_Heart.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pontianak_Malay_Spirit.jpg/640px-Pontianak_Malay_Spirit.jpg"
 ---
 
 She smells of frangipani first — that sweet, almost sickening floral scent that drifts through the warm night air before she is visible. In Malaysia and Indonesia, the Pontianak is announced by her fragrance, and those who have grown up with the stories know that when frangipani appears in the air at night near a banana tree, with no obvious source, the appropriate response is to go inside immediately and not look toward the garden.
