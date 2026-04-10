@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <main
       className="relative w-full h-full overflow-hidden"
-      style={{ background: 'radial-gradient(ellipse at center, #3d2510 0%, #1a0f00 100%)' }}
+      style={{ background: 'radial-gradient(ellipse at center, #5a3218 0%, #1a0f00 100%)' }}
     >
       {/* Parchment texture layer */}
       <div
@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* Bottom attribution */}
       <div className="absolute bottom-4 left-0 right-0 z-20 text-center pointer-events-none">
-        <p className="text-xs text-[#8b6914] font-[var(--font-cinzel)] tracking-widest">
+        <p className="text-xs text-[#c49428] font-[var(--font-cinzel)] tracking-widest">
           HORROR · FOLKLORE · ANCIENT TALES
         </p>
       </div>

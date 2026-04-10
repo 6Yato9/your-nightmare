@@ -19,7 +19,7 @@ export default function DangerRating({ rating, size = 'md' }: DangerRatingProps)
       {Array.from({ length: 5 }, (_, i) => (
         <span
           key={i}
-          className={i < rating ? 'text-[#8b2500]' : 'text-[#5c3d1e] opacity-30'}
+          className={i < rating ? 'text-[#c44020]' : 'text-[#8b5e2a] opacity-40'}
         >
           ☠
         </span>

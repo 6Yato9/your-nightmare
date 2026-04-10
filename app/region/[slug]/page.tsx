@@ -35,20 +35,20 @@ export default async function RegionPage({ params }: Props) {
   return (
     <main
       className="min-h-full"
-      style={{ background: 'radial-gradient(ellipse at top, #3d2510 0%, #1a0f00 100%)' }}
+      style={{ background: 'radial-gradient(ellipse at top, #5a3218 0%, #1a0f00 100%)' }}
     >
       {/* Header */}
-      <header className="border-b border-[#5c3d1e] px-6 py-8 text-center">
+      <header className="border-b border-[#8b5e2a] px-6 py-8 text-center">
         <Link
           href="/"
-          className="inline-block mb-4 text-xs uppercase tracking-widest text-[#8b6914] hover:text-[#c4840f] font-[var(--font-cinzel)] transition-colors"
+          className="inline-block mb-4 text-xs uppercase tracking-widest text-[#c49428] hover:text-[#e0a820] font-[var(--font-cinzel)] transition-colors"
         >
           ← Return to the Map
         </Link>
         <h1 className="text-4xl md:text-5xl font-black text-[#e8d5a3] font-[var(--font-cinzel)] tracking-wide">
           {region.name}
         </h1>
-        <p className="mt-2 text-[#8b6914] font-[var(--font-im-fell)] italic">
+        <p className="mt-2 text-[#c49428] font-[var(--font-im-fell)] italic">
           {stories.length} {stories.length === 1 ? 'legend' : 'legends'} from this region
         </p>
         <div className="ink-divider mt-4">✦ ✦ ✦</div>
@@ -57,7 +57,7 @@ export default async function RegionPage({ params }: Props) {
       {/* Story grid */}
       <section className="max-w-6xl mx-auto px-6 py-12">
         {stories.length === 0 ? (
-          <p className="text-center text-[#5c3d1e] font-[var(--font-im-fell)] italic text-lg">
+          <p className="text-center text-[#8b5e2a] font-[var(--font-im-fell)] italic text-lg">
             The legends of this region have not yet been written. Check back when the darkness grows deeper.
           </p>
         ) : (

@@ -10,7 +10,7 @@ const GEO_URL =
 
 const DEFAULT_STYLE = {
   fill: '#b89a3a',
-  stroke: '#7a5c28',
+  stroke: '#9a7840',
   strokeWidth: 0.5,
   outline: 'none',
   cursor: 'default',
@@ -18,7 +18,7 @@ const DEFAULT_STYLE = {
 
 const CLICKABLE_STYLE = {
   fill: '#c4a840',
-  stroke: '#7a5c28',
+  stroke: '#9a7840',
   strokeWidth: 0.5,
   outline: 'none',
   cursor: 'pointer',
@@ -26,7 +26,7 @@ const CLICKABLE_STYLE = {
 
 const HOVER_STYLE = {
   fill: '#e0b830',
-  stroke: '#7a5c28',
+  stroke: '#9a7840',
   strokeWidth: 0.8,
   outline: 'none',
   cursor: 'pointer',
@@ -34,7 +34,7 @@ const HOVER_STYLE = {
 
 const ACTIVE_STYLE = {
   fill: '#c43000',
-  stroke: '#7a5c28',
+  stroke: '#9a7840',
   strokeWidth: 0.8,
   outline: 'none',
   cursor: 'pointer',
@@ -123,7 +123,7 @@ export default function WorldMap() {
       {/* Hover tooltip */}
       {tooltip && (
         <div
-          className="pointer-events-none fixed z-20 px-3 py-1.5 text-sm font-[var(--font-cinzel)] text-[#f5e6c8] bg-[#1a0f00] border border-[#8b6914] shadow-lg"
+          className="pointer-events-none fixed z-20 px-3 py-1.5 text-sm font-[var(--font-cinzel)] text-[#f5e6c8] bg-[#1a0f00] border border-[#c49428] shadow-lg"
           style={{ left: tooltip.x + 12, top: tooltip.y - 8 }}
         >
           {tooltip.name}

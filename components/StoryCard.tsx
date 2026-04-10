@@ -41,7 +41,7 @@ export default function StoryCard({ story, index = 0 }: StoryCardProps) {
         {/* Card content */}
         <div className="p-4">
           {/* Category badge */}
-          <span className="text-xs uppercase tracking-widest text-[#8b2500] font-[var(--font-cinzel)]">
+          <span className="text-xs uppercase tracking-widest text-[#c44020] font-[var(--font-cinzel)]">
             {story.category}
           </span>
 
@@ -66,7 +66,7 @@ export default function StoryCard({ story, index = 0 }: StoryCardProps) {
           </p>
 
           {/* Read more */}
-          <p className="mt-3 text-xs uppercase tracking-widest text-[#8b2500] group-hover:underline font-[var(--font-cinzel)]">
+          <p className="mt-3 text-xs uppercase tracking-widest text-[#c44020] group-hover:underline font-[var(--font-cinzel)]">
             Read the legend →
           </p>
         </div>
