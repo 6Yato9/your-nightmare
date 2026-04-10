@@ -25,7 +25,7 @@ export default function StoryCard({ story, index = 0 }: StoryCardProps) {
             src={story.image}
             alt={story.creature}
             fill
-            className="object-cover grayscale sepia opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+            className="object-cover object-top grayscale sepia opacity-80 group-hover:opacity-100 transition-opacity duration-300"
             sizes="(max-width: 768px) 100vw, 33vw"
           />
           {/* Torn edge overlay */}
