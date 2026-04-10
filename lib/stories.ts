@@ -17,28 +17,41 @@ export interface Story {
   contentHtml: string
 }
 
-const storiesDir = path.join(process.cwd(), 'content/stories')
+// Exported for testing — allows test suite to redirect to fixture directory
+export const storiesConfig = {
+  storiesDir: path.join(process.cwd(), 'content/stories'),
+}
 
 function parseStoryFile(fileName: string): Omit<Story, 'contentHtml'> {
   const slug = fileName.replace(/\.md$/, '')
-  const fullPath = path.join(storiesDir, fileName)
+  const fullPath = path.join(storiesConfig.storiesDir, fileName)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data } = matter(fileContents)
+
+  if (typeof data.title !== 'string') throw new Error(`${fileName}: missing or invalid "title"`)
+  if (typeof data.creature !== 'string') throw new Error(`${fileName}: missing or invalid "creature"`)
+  if (typeof data.region !== 'string') throw new Error(`${fileName}: missing or invalid "region"`)
+  if (typeof data.regionSlug !== 'string') throw new Error(`${fileName}: missing or invalid "regionSlug"`)
+  if (typeof data.category !== 'string') throw new Error(`${fileName}: missing or invalid "category"`)
+  if (typeof data.dangerRating !== 'number') throw new Error(`${fileName}: missing or invalid "dangerRating"`)
+  if (typeof data.teaser !== 'string') throw new Error(`${fileName}: missing or invalid "teaser"`)
+  if (typeof data.image !== 'string') throw new Error(`${fileName}: missing or invalid "image"`)
+
   return {
     slug,
-    title: data.title as string,
-    creature: data.creature as string,
-    region: data.region as string,
-    regionSlug: data.regionSlug as string,
-    category: data.category as string,
-    dangerRating: data.dangerRating as number,
-    teaser: data.teaser as string,
-    image: data.image as string,
+    title: data.title,
+    creature: data.creature,
+    region: data.region,
+    regionSlug: data.regionSlug,
+    category: data.category,
+    dangerRating: data.dangerRating,
+    teaser: data.teaser,
+    image: data.image,
   }
 }
 
 export function getAllStories(): Omit<Story, 'contentHtml'>[] {
-  const fileNames = fs.readdirSync(storiesDir)
+  const fileNames = fs.readdirSync(storiesConfig.storiesDir)
   return fileNames
     .filter(f => f.endsWith('.md'))
     .map(parseStoryFile)
@@ -51,20 +64,13 @@ export function getStoriesByRegion(
 }
 
 export async function getStoryBySlug(slug: string): Promise<Story> {
-  const fullPath = path.join(storiesDir, `${slug}.md`)
+  const meta = parseStoryFile(`${slug}.md`)
+  const fullPath = path.join(storiesConfig.storiesDir, `${slug}.md`)
   const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
+  const { content } = matter(fileContents)
   const processed = await remark().use(html).process(content)
   return {
-    slug,
-    title: data.title as string,
-    creature: data.creature as string,
-    region: data.region as string,
-    regionSlug: data.regionSlug as string,
-    category: data.category as string,
-    dangerRating: data.dangerRating as number,
-    teaser: data.teaser as string,
-    image: data.image as string,
+    ...meta,
     contentHtml: processed.toString(),
   }
 }
