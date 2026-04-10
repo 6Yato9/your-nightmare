@@ -87,8 +87,8 @@ export default function WorldMap() {
       <ComposableMap
         projection="geoEquirectangular"
         width={960}
-        height={500}
-        projectionConfig={{ scale: 130, center: [0, 10] }}
+        height={420}
+        projectionConfig={{ scale: 130, center: [0, 30] }}
         style={{ width: '100%', height: 'auto' }}
       >
         <Geographies geography={GEO_URL}>
