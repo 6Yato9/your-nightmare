@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-parchment-light: #f5e6c8;
+  --color-parchment-mid: #e8d5a3;
+  --color-parchment-dark: #d4b97a;
+  --color-sepia-brown: #5c3d1e;
+  --color-sepia-deep: #3d2510;
+  --color-blood-rust: #8b2500;
+  --color-near-black: #1a0f00;
+  --color-amber-glow: #c4840f;
+  --font-serif: var(--font-cinzel);
+  --font-story: var(--font-im-fell);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1a0f00;
+  color: #5c3d1e;
+  font-family: var(--font-im-fell), Georgia, serif;
+}
+
+/* Drop cap for story body first paragraph */
+.story-body > p:first-of-type::first-letter {
+  font-family: var(--font-cinzel), serif;
+  font-size: 4rem;
+  font-weight: 700;
+  float: left;
+  line-height: 0.75;
+  margin-right: 0.1em;
+  margin-top: 0.1em;
+  color: #8b2500;
+}
+
+/* Decorative divider */
+.ink-divider {
+  text-align: center;
+  color: #8b2500;
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  margin: 2rem 0;
+  opacity: 0.6;
+}
+
+/* Parchment scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #3d2510;
+}
+::-webkit-scrollbar-thumb {
+  background: #8b6914;
+  border-radius: 4px;
 }
