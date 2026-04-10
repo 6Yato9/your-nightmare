@@ -6,7 +6,7 @@ regionSlug: "north-america"
 category: "Shapeshifter"
 dangerRating: 5
 teaser: "A Navajo witch who has shed their humanity to wear the skins of animals — and sometimes, the faces of people you love."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Navajo_sand_painting.jpg/640px-Navajo_sand_painting.jpg"
+image: "/images/stories/skinwalker.png"
 ---
 
 Among the Navajo people, there are certain things you do not speak of by daylight, and certain things you do not speak of at all. The yee naaldlooshii — translated loosely as "with it, he goes on all fours" — is one of them. Even mentioning the creature is said to draw its attention, and its attention is not something anyone desires.

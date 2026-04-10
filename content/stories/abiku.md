@@ -6,7 +6,7 @@ regionSlug: "africa"
 category: "Supernatural Being"
 dangerRating: 3
 teaser: "A Yoruba spirit child that is born, dies young, and is reborn to the same mother — cycling endlessly unless the cycle is broken."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Yoruba_art.jpg/640px-Yoruba_art.jpg"
+image: "/images/stories/abiku.png"
 ---
 
 In Yoruba cosmology of West Africa, some children are not truly children at all — they are abiku, spirit-children who belong to a company of supernatural beings and have only agreed to visit the world of the living temporarily. They are born, they charm their families with uncommon beauty and intelligence, and then they die before adolescence. Their death is not tragedy so much as departure — they have simply returned to where they came from.

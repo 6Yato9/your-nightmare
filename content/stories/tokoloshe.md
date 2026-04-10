@@ -6,7 +6,7 @@ regionSlug: "africa"
 category: "Supernatural Being"
 dangerRating: 4
 teaser: "A small, hairy water spirit from Zulu tradition that can be sent by an enemy to torment or kill you — and you'll never see it coming."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Zulu_traditional_healer.jpg/640px-Zulu_traditional_healer.jpg"
+image: "/images/stories/tokoloshe.png"
 ---
 
 In Zulu and Xhosa tradition, the Tokoloshe (also known as Tikoloshe) is a small, hairy humanoid spirit with a particularly sinister characteristic: it can make itself invisible by swallowing a pebble, and it can shrink itself to the size of a child. It lives near rivers and streams, and it can be summoned and directed by a witch or sorcerer to torment a specific person.

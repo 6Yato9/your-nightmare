@@ -6,7 +6,7 @@ regionSlug: "south-america"
 category: "Ghost/Spirit"
 dangerRating: 4
 teaser: "The Weeping Woman drifts along the waterways of Latin America, wailing for the children she drowned — and looking for replacements."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/La_Llorona_by_John_Spencer.jpg/640px-La_Llorona_by_John_Spencer.jpg"
+image: "/images/stories/la-llorona.png"
 ---
 
 She is always found near water. Rivers, canals, the edges of lakes at midnight — wherever the current runs dark and quiet, La Llorona is never far behind. Her wail is distinctive: not the generic keening of a ghost, but something specific and hollow, a mother's cry stripped of hope, repeated endlessly into the dark like a prayer no one will answer.

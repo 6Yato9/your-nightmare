@@ -6,7 +6,7 @@ regionSlug: "middle-east"
 category: "Supernatural Being"
 dangerRating: 4
 teaser: "Created from smokeless fire, the Djinn are a race parallel to humanity — some benevolent, some malicious, some ancient beyond all reckoning."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Jinn_with_human.jpg/640px-Jinn_with_human.jpg"
+image: "/images/stories/djinn.png"
 ---
 
 Before the Quran named them, the Djinn already existed. They are mentioned in Islamic scripture as a created race — made from smokeless fire as humans were made from clay — who were given free will and who, like humans, can choose faith or rejection. They have their own communities, their own families, their own mosques. They live in parallel to the human world, occupying the same spaces but in a dimension slightly displaced from ours.

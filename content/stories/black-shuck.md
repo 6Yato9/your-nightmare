@@ -6,7 +6,7 @@ regionSlug: "europe"
 category: "Folklore"
 dangerRating: 3
 teaser: "The vast black dog of East Anglia with eyes like burning coals — to see it is an omen of death, and those it passes through walls to reach rarely see morning."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/The_Bungay_Shuck.jpg/640px-The_Bungay_Shuck.jpg"
+image: "/images/stories/black-shuck.png"
 ---
 
 Along the coastal paths and marshlands of Norfolk, Suffolk, and Essex, there has been reported for centuries a black dog of impossible size — larger than any natural dog, as large as a calf or a small horse, running silently along the cliff paths and churchyard walls. Its eyes are described in every account as burning: a single red eye, or two eyes like hot coals, or a cyclopic lamp of sickly green fire depending on the telling. It runs without making sound. Its paws leave no prints in the soft coastal mud.

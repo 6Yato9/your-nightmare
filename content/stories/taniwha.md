@@ -6,7 +6,7 @@ regionSlug: "oceania"
 category: "Supernatural Being"
 dangerRating: 3
 teaser: "Guardian spirits of the Māori people who dwell in rivers, lakes, and the sea — protectors when respected, destroyers when their territory is violated."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Maori_carving_taniwha.jpg/640px-Maori_carving_taniwha.jpg"
+image: "/images/stories/taniwha.png"
 ---
 
 The Taniwha of Māori tradition do not fit cleanly into Western categories of monster. They are at once dangerous and sacred, capable of terrible violence and genuine guardianship, attached to specific places and specific iwi (tribal groups) in ways that carry legal and spiritual weight acknowledged by the New Zealand government in treaty negotiations.

@@ -6,7 +6,7 @@ regionSlug: "africa"
 category: "Demon"
 dangerRating: 4
 teaser: "A shape-shifting demon from Zanzibar that visits homes at night, smelling of sulfur — and it demands you tell others about it, or it will return."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Zanzibar_coast.jpg/640px-Zanzibar_coast.jpg"
+image: "/images/stories/popobawa.png"
 ---
 
 The Popobawa first appeared in Zanzibar in 1965, the year the islands joined Tanzania, though older people say it had been present much longer under different names. It is a shape-shifter — sometimes it appears as a one-eyed bat-winged demon, sometimes as a shadow without a source, sometimes as a smell of sulfur that precedes nothing visible. It attacks at night. It targets households where people refuse to believe in it.

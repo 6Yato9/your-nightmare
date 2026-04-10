@@ -6,7 +6,7 @@ regionSlug: "east-asia"
 category: "Ghost/Spirit"
 dangerRating: 3
 teaser: "The Snow Woman appears to travelers lost in blizzards — breathtakingly beautiful, breathtakingly cold, and she decides in that moment whether you live or die."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Yuki-onna.jpg/640px-Yuki-onna.jpg"
+image: "/images/stories/yuki-onna.png"
 ---
 
 She appears in blizzards, when the world has gone white and silent and the cold has passed from discomfort into danger. She is tall, with long black hair against skin as white as the snow she moves through. Her kimono is white. Her breath is visible even in the freezing air. She does not leave footprints.

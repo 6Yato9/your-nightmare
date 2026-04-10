@@ -6,7 +6,7 @@ regionSlug: "europe"
 category: "Supernatural Being"
 dangerRating: 4
 teaser: "She flies in a mortar, her hut spins on chicken legs, and she may help you or eat you — she has not yet decided."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Bilibin_Baba_Yaga.jpg/640px-Bilibin_Baba_Yaga.jpg"
+image: "/images/stories/baba-yaga.png"
 ---
 
 Deep in the Russian forest — always deeper than you think the forest goes, always past the point where sensible people turn back — there is a hut that stands on two enormous chicken legs. It has no windows facing the forest path, only a blank wall of old timber. It rotates. It knows when you are coming.

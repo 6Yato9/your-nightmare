@@ -6,7 +6,7 @@ regionSlug: "arctic-siberia"
 category: "Ancient Creature"
 dangerRating: 5
 teaser: "The great wolf of Inuit legend — not an ordinary wolf but a single vast creature, large as a glacier, that hunts alone and devours those foolish enough to hunt by night."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Arctic_wolf.jpg/640px-Arctic_wolf.jpg"
+image: "/images/stories/amarok.png"
 ---
 
 The Inuit people of the Arctic know wolves the way people elsewhere know weather — as a constant, consequential presence that must be understood if you are to survive. And so when they describe the Amarok, the great wolf, they do so with the precision of people who have lived with the actual animal for thousands of years and know exactly how much more terrifying the supernatural version needs to be.

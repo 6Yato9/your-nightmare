@@ -6,7 +6,7 @@ regionSlug: "east-asia"
 category: "Ghost/Spirit"
 dangerRating: 5
 teaser: "A giant skeleton formed from the grudge-filled bones of soldiers who starved to death — it wanders at night, biting off heads and drinking the blood."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Gashadokuro.jpg/640px-Gashadokuro.jpg"
+image: "/images/stories/gashadokuro.png"
 ---
 
 When soldiers die far from home in battle — not from wounds but from starvation, from abandonment, from the mundane cruelty of a war that forgot them — their bones do not rest. The rage and hunger that filled their last days accumulates in the earth where they fell, and eventually, when enough bones have gathered enough grudge, they rise.

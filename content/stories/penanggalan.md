@@ -6,7 +6,7 @@ regionSlug: "southeast-asia"
 category: "Cursed Human"
 dangerRating: 4
 teaser: "A woman whose head detaches at night, trailing her stomach and intestines behind her as she flies through the dark in search of newborn blood."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Penanggalan_Malaysian_artwork.jpg/640px-Penanggalan_Malaysian_artwork.jpg"
+image: "/images/stories/penanggalan.png"
 ---
 
 Malaysian folklore contains a rich taxonomy of supernatural threats, and the Penanggalan is among the most viscerally disturbing. In life she was a woman — usually one who made a bargain with the supernatural, or who died in childbirth in a state of extreme guilt, or who practiced forbidden midwifery. In death, and sometimes while technically still living, she separates.

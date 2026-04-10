@@ -6,7 +6,7 @@ regionSlug: "middle-east"
 category: "Deity"
 dangerRating: 5
 teaser: "The Devourer of the Dead — part lion, part hippo, part crocodile — waits beside the scales of judgment in the Egyptian underworld to eat the hearts found unworthy."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/BD_Weighing_of_the_Heart.jpg/640px-BD_Weighing_of_the_Heart.jpg"
+image: "/images/stories/ammit.png"
 ---
 
 In the Hall of Two Truths, deep in the Egyptian Duat — the underworld — the dead stand before the scales. On one pan rests the feather of Ma'at, the feather of truth and cosmic order. On the other pan rests the dead person's heart, in which every deed, every thought, every moment of their life has been recorded. Anubis holds the scales. Thoth records the result. And in the corner, waiting, crouches Ammit.

@@ -6,7 +6,7 @@ regionSlug: "east-asia"
 category: "Cursed Human"
 dangerRating: 3
 teaser: "China's hopping vampire — arms outstretched, eyes white, it cannot smell you if you hold your breath, and a yellow talisman can stop it cold."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Qing_dynasty_female_jiangshi.jpg/640px-Qing_dynasty_female_jiangshi.jpg"
+image: "/images/stories/jiangshi.png"
 ---
 
 The Jiangshi — literally "stiff corpse" — is one of China's most distinctive supernatural creatures, shaped by a specific cultural anxiety about the proper treatment of the dead. When a body is not buried promptly and correctly, when someone dies far from their ancestral home and their corpse cannot be transported back in time, when the hun soul separates from the po soul in a manner that leaves both unmoored — the body may reanimate. Rigor mortis has set in. It cannot bend its knees. It moves by hopping, arms extended forward for balance, a posture so specific and strange it has become iconic.

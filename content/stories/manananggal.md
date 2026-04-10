@@ -6,7 +6,7 @@ regionSlug: "southeast-asia"
 category: "Cursed Human"
 dangerRating: 5
 teaser: "A Filipino vampire that splits at the torso to fly on leathery wings at night — its lower half left standing, waiting for dawn."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Manananggal_Philippine_Folklore.jpg/640px-Manananggal_Philippine_Folklore.jpg"
+image: "/images/stories/manananggal.png"
 ---
 
 Somewhere in the rural Philippines, on a night when the moon is hidden and the dogs have gone quiet, a woman stands alone in a field and does something that should be impossible. Her upper body separates from her lower half at the torso. Enormous bat-like wings unfurl from her back, wet and dark. She rises into the sky, leaving her legs standing in the grass below — still upright, still rooted, waiting. She will need them again before dawn.

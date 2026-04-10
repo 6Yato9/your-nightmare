@@ -6,7 +6,7 @@ regionSlug: "south-asia"
 category: "Demon"
 dangerRating: 5
 teaser: "Ancient demons from Hindu mythology with the power to take any form, who feast on human flesh and delight in disrupting sacred rituals."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ravana.jpg/640px-Ravana.jpg"
+image: "/images/stories/rakshasa.png"
 ---
 
 In the oldest Sanskrit texts, the Rakshasas were already ancient — beings created at the beginning of the world to guard the primordial waters, who were immediately consumed by their own hunger and turned their appetites toward the first men and women. They have been present in human mythology ever since, lurking at the edges of the sacred, waiting for a moment of inattention.

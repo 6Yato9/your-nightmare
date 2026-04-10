@@ -6,7 +6,7 @@ regionSlug: "middle-east"
 category: "Demon"
 dangerRating: 4
 teaser: "A desert shapeshifter that lurks in graveyards and lonely places, luring travelers to their deaths before feasting on the dead."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Arabian_night.jpg/640px-Arabian_night.jpg"
+image: "/images/stories/ghoul.png"
 ---
 
 In pre-Islamic Arabian tradition and throughout the world of One Thousand and One Nights, the ghoul haunts the places between places — the desert wastes, the necropolis at the edge of the city, the crossroads that no one uses after dark. It is a creature of transformation and appetite, and its primary trait is that it will wear whatever face gets it what it wants.

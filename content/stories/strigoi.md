@@ -6,7 +6,7 @@ regionSlug: "europe"
 category: "Cursed Human"
 dangerRating: 5
 teaser: "Romania's true vampire — not the romantic creature of fiction, but a dead thing that rises to drink from its own family first."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Romanian_vampire.jpg/640px-Romanian_vampire.jpg"
+image: "/images/stories/strigoi.png"
 ---
 
 The vampire of Bram Stoker came from somewhere, and that somewhere is the Romanian countryside, where the strigoi has been feared for centuries not as a gothic aristocrat but as a neighbor, a relative, a grandmother who died wrong and came back hungry. There is nothing romantic about it. It is a corpse that will not stay dead, and its first instinct is to return to the people who loved it most.

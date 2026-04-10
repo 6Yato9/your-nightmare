@@ -6,7 +6,7 @@ regionSlug: "north-america"
 category: "Ancient Creature"
 dangerRating: 5
 teaser: "A ravenous spirit of the frozen north, born from cannibalism and insatiable hunger — once touched by its curse, you will never be full again."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Wendigo_by_Morby.jpg/640px-Wendigo_by_Morby.jpg"
+image: "/images/stories/wendigo.png"
 ---
 
 Deep in the boreal forests of the Algonquian peoples, where winter stretches on without mercy and the cold gnaws at the bones of the living, there stalks a creature older than memory. The Wendigo was not always a monster. It began as a man — a man who, driven to the edge of starvation, committed the unthinkable act of consuming human flesh. In that moment of weakness, something ancient and hungry slipped inside him and made itself at home.

@@ -6,7 +6,7 @@ regionSlug: "south-asia"
 category: "Ghost/Spirit"
 dangerRating: 4
 teaser: "A woman who died in childbirth or during the festivals of the dead returns as a spirit of vengeance — beautiful to men, horrifying in her true form."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/South_Asian_spirit.jpg/640px-South_Asian_spirit.jpg"
+image: "/images/stories/churel.png"
 ---
 
 Across India, Pakistan, and Bangladesh, the Churel (also spelled Chudail or Chudel) is feared for two reasons: what created her and what she becomes. She is a woman who died in a state of particular tragedy — in childbirth, or during the transitional periods of the Hindu calendar when the dead are closest to the living, or after severe mistreatment by her husband's family. Her death was wrong in a way that does not allow for rest.

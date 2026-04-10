@@ -6,7 +6,7 @@ regionSlug: "europe"
 category: "Ghost/Spirit"
 dangerRating: 4
 teaser: "The drowned maidens of Slavic rivers surface in spring to drag the living into cold water — beautiful, vengeful, and inescapable."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Ivan_Bilibin_32.jpg/640px-Ivan_Bilibin_32.jpg"
+image: "/images/stories/rusalka.png"
 ---
 
 In the forests and rivers of Russia, Ukraine, and Poland, there is a week in late spring — Rusalka Week, the seventh week after Easter — when the boundary between the living world and the world of the restless dead grows dangerously thin. During these days, the Rusalki emerge from their rivers and lakes and sit in the branches of trees near the water, combing their long wet hair, singing, and watching for the living who venture too close.

@@ -6,7 +6,7 @@ regionSlug: "europe"
 category: "Ghost/Spirit"
 dangerRating: 3
 teaser: "Her wail does not cause death — it announces it. If you hear the Banshee keening outside your window, someone in your family will not see morning."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Banshee.jpg/640px-Banshee.jpg"
+image: "/images/stories/banshee.png"
 ---
 
 In Ireland, death does not always arrive unannounced. Sometimes it sends a herald. The bean sídhe — woman of the fairy mound — appears at the moment a member of one of the ancient Irish families is about to die. Her function is not to kill but to mourn, and her mourning is a sound that no living person who has heard it can forget or fully describe.

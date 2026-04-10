@@ -6,7 +6,7 @@ regionSlug: "europe"
 category: "Ancient Creature"
 dangerRating: 5
 teaser: "From the sea of the Orkney Islands rises a creature with no skin — only wet muscle and black blood pumping through exposed veins, mounted on a horse that is not a horse."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Nuckelavee.jpg/640px-Nuckelavee.jpg"
+image: "/images/stories/nuckelavee.png"
 ---
 
 The Orcadians had many sea-spirits to fear, but none inspired the particular paralysis of dread that the Nuckelavee did. When fishermen and farmers of the Orkney Islands spoke of it — always in hushed tones, never by the fire at night — they described something that seemed designed specifically to break the human mind's capacity for processing horror.

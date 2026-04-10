@@ -6,7 +6,7 @@ regionSlug: "south-america"
 category: "Supernatural Being"
 dangerRating: 3
 teaser: "A fiery-haired guardian of the Amazon whose feet point backward — leading hunters deeper into the jungle until they are hopelessly lost."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Curupira.jpg/640px-Curupira.jpg"
+image: "/images/stories/curupira.png"
 ---
 
 The Curupira does not want to kill you. It wants you to suffer the particular horror of realizing you are lost — truly, irretrievably lost — in a jungle the size of a continent. And then it wants to watch you panic.

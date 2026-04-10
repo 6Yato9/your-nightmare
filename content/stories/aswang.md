@@ -6,7 +6,7 @@ regionSlug: "southeast-asia"
 category: "Shapeshifter"
 dangerRating: 5
 teaser: "By day a mild-mannered neighbor. By night something that steals through the dark on reversed feet, drawn by the smell of the sick and the unborn."
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Philippine_mythological_creature.jpg/640px-Philippine_mythological_creature.jpg"
+image: "/images/stories/aswang.png"
 ---
 
 The Philippines have no single monster — they have dozens — but the aswang looms largest in the nightmare geography of the archipelago. It is not a single type of creature but a category: a human being, usually female, usually mild-mannered and unremarkable by daylight, who transforms at night into something that feeds on flesh and blood.

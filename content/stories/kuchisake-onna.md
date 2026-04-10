@@ -6,7 +6,7 @@ regionSlug: "east-asia"
 category: "Cursed Human"
 dangerRating: 4
 teaser: "The Slit-Mouthed Woman approaches you on an empty street, wearing a surgical mask. Then she asks: am I beautiful?"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kuchisake-onna.jpg/640px-Kuchisake-onna.jpg"
+image: "/images/stories/kuchisake-onna.png"
 ---
 
 You are walking home alone at night — late, the streets empty — when a woman appears ahead of you. She is dressed well, perhaps elegantly. She wears a surgical mask over the lower half of her face, which is not unusual in Japan, where masks are worn for health and courtesy. She approaches you and stops. She is, you notice, very beautiful above the mask.
