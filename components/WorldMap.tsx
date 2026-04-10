@@ -89,7 +89,7 @@ export default function WorldMap() {
         style={{ width: '100%', height: '100%' }}
       >
         <Geographies geography={GEO_URL}>
-          {({ geographies }) =>
+          {({ geographies }: { geographies: Array<{ rsmKey: string; id: string }> }) =>
             geographies.map(geo => {
               const normalizedId = String(Number(geo.id))
               const regionSlug = getRegionSlugByCountryCode(normalizedId)
