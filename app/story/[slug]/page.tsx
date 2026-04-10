@@ -29,14 +29,8 @@ export async function generateMetadata({ params }: Props) {
 export default async function StoryPage({ params }: Props) {
   const { slug } = await params
 
-  let story
-  try {
-    story = await getStoryBySlug(slug)
-  } catch {
-    notFound()
-  }
-
-  story = story!
+  const story = await getStoryBySlug(slug).catch(() => null)
+  if (!story) notFound()
 
   return (
     <main
